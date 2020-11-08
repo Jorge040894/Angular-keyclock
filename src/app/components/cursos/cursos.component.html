@@ -1,0 +1,21 @@
+<h1>{{titulo}}</h1>
+
+<table class=" table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>nombre</th>
+            <th>creado</th>
+  
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor ="let curso of cursos">
+            <td>{{curso.id}}</td>
+            <td>{{curso.nombre}}</td>
+            <td>{{curso.creteAt}}</td>
+       
+        </tr>
+    </tbody>
+</table>
